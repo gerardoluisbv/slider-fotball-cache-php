@@ -1,0 +1,201 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  background-color: #F8F8F8;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+
+.content {
+  width: 85%;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/* ---------- BENEFICIOS DE SUSCRIPCIONES ---------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+.flex_card-catar {
+  display: flex; width: 100%;
+}
+
+.item-flex_card {     
+  flex: 0 1 50%;
+ flex-direction:column;
+ text-align: center;
+}
+
+.header_card-catar {
+  font-size:12px; 
+  background-color: #8A1538; 
+  color: white; 
+  border-top-left-radius: 6px; 
+  border-top-right-radius: 6px; 
+}
+
+.padding-bottom-card { 
+  padding-bottom: 5px;
+}
+
+.padding_header-card {
+  padding-top: 3px; 
+  padding-bottom: 2px;
+}
+
+.avatar_flag {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.margin_catar{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.padding_card-catar {
+  padding-top: 5px; 
+  padding-bottom: 10px;
+}
+
+.card__catar {
+  background-color: white;
+  border-radius: 6px;
+  min-height: 100px;
+  color: #000;
+}
+
+.border__bottom  {
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.title__benefits {
+  font-family: 'Lato', serif;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.subtitle__catar {
+  text-align: center;
+  font-size: 1em;
+}
+
+
+.card__catar-title {
+  padding-bottom: 0.3em;
+}
+
+
+.card__catar .image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.card__catar figure img {
+  max-width: 50px;
+  
+}
+
+
+.card__catar .card__benefits-title{
+  font-family: 'Lato', serif;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.card__catar .card__catar-text{
+  font-size: 1em;
+  text-align: left;
+
+}
+
+.card__catar .card__catar-text b {
+  font-size: 0.8em;
+}
+
+
+/* RESET STYLES */
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+
+
+/***********************************************************************************************/
+/**************************************   CARROSEL *********************************************/
+/***********************************************************************************************/
+
+
+.carousel {
+  padding-top: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+} 
+
+.container__carousel {
+  position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: none;
+  top:calc(50% - 15px);
+  cursor:pointer;
+  line-height: 30px;
+  text-align: center;
+  background: #8A1538;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 1);
+
+  opacity: 70%;
+  z-index: 1;
+}
+
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover{
+  
+  color: rgba(255, 255, 255, 1);
+  opacity: 100%;
+}
+
+.carousel__anterior {
+  left: -25px;
+}
+
+.carousel__siguiente {
+  right: -25px;
+}
+
+.carousel__indicadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+}
+
